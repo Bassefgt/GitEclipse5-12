@@ -9,6 +9,9 @@ public class Metodos {
 		
 		System.out.println(lakers(v1, v2));
 		
+		int numero = 76;
+		
+		System.out.println(ascii(numero));
 	}
 	
 	
@@ -19,4 +22,11 @@ public class Metodos {
 		return vt;
 	}
 
+	
+	public static char ascii(int numero) {
+		
+		char numAscii = (char) numero;
+		
+		return numAscii;
+	}
 }
