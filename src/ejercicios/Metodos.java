@@ -6,12 +6,13 @@ public class Metodos {
 		
 		String v1 = "LeBron " ;
 		String v2 = "James";
-		
 		System.out.println(lakers(v1, v2));
 		
 		int numero = 76;
-		
 		System.out.println(ascii(numero));
+		
+		char norChar = '$';
+		System.out.println(normal(norChar));
 	}
 	
 	
@@ -28,5 +29,13 @@ public class Metodos {
 		char numAscii = (char) numero;
 		
 		return numAscii;
+	}
+
+	
+	public static int normal(char norChar)  {
+		
+		int numerito = (int) norChar;
+		
+		return numerito;
 	}
 }
