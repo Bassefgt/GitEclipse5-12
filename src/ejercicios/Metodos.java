@@ -19,7 +19,7 @@ public class Metodos {
 	public static String lakers(String v1, String v2) {
 		
 		String vt = v1 + v2;
-		
+		//MASTER
 		return vt;
 	}
 
