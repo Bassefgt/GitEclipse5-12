@@ -13,6 +13,11 @@ public class Metodos {
 		
 		char norChar = '$';
 		System.out.println(normal(norChar));
+		
+		int num1 = 60;
+		int num2 = 3;
+			
+		cuentaAtras(num1, num2);
 	}
 	
 	
@@ -37,5 +42,18 @@ public class Metodos {
 		int numerito = (int) norChar;
 		
 		return numerito;
+	}
+	
+	
+	public static int cuentaAtras(int numMain, int numCuenta) {
+			
+		do {
+			
+			numMain = numMain - numCuenta;
+			System.out.println(numMain);
+			
+		} while (numMain > 0);
+		
+		return numMain;
 	}
 }
